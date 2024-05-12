@@ -1,0 +1,169 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>22455fba-609d-4d40-ab78-02c11a4a66f6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>First_game.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>First game</Name>
+    <RootNamespace>First game</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.12</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == '1' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <OutputPath>bin\1\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="emoji\build\lib\emoji\core.py" />
+    <Compile Include="emoji\build\lib\emoji\tokenizer.py" />
+    <Compile Include="emoji\build\lib\emoji\unicode_codes\data_dict.py" />
+    <Compile Include="emoji\build\lib\emoji\unicode_codes\__init__.py" />
+    <Compile Include="emoji\build\lib\emoji\__init__.py" />
+    <Compile Include="emoji\docs\conf.py" />
+    <Compile Include="emoji\emoji\core.py" />
+    <Compile Include="emoji\emoji\tokenizer.py" />
+    <Compile Include="emoji\emoji\unicode_codes\data_dict.py" />
+    <Compile Include="emoji\emoji\unicode_codes\__init__.py" />
+    <Compile Include="emoji\emoji\__init__.py" />
+    <Compile Include="emoji\example\example.py" />
+    <Compile Include="emoji\tests\test_analyze.py" />
+    <Compile Include="emoji\tests\test_core.py" />
+    <Compile Include="emoji\tests\test_dict.py" />
+    <Compile Include="emoji\tests\test_nfkc.py" />
+    <Compile Include="emoji\tests\test_unicode_codes.py" />
+    <Compile Include="emoji\tests\test_versions.py" />
+    <Compile Include="emoji\tests\test_zwj_common.py" />
+    <Compile Include="emoji\tests\test_zwj_keep.py" />
+    <Compile Include="emoji\tests\test_zwj_remove.py" />
+    <Compile Include="emoji\tests\__init__.py" />
+    <Compile Include="emoji\utils\get_codes_from_unicode_emoji_data_files.py" />
+    <Compile Include="emoji\utils\gh-pages\generatePages.py" />
+    <Compile Include="First_game.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="emoji\" />
+    <Folder Include="emoji\.github\" />
+    <Folder Include="emoji\.github\workflows\" />
+    <Folder Include="emoji\.git\" />
+    <Folder Include="emoji\.git\hooks\" />
+    <Folder Include="emoji\.git\info\" />
+    <Folder Include="emoji\.git\logs\" />
+    <Folder Include="emoji\.git\logs\refs\" />
+    <Folder Include="emoji\.git\logs\refs\heads\" />
+    <Folder Include="emoji\.git\logs\refs\remotes\" />
+    <Folder Include="emoji\.git\logs\refs\remotes\origin\" />
+    <Folder Include="emoji\.git\objects\" />
+    <Folder Include="emoji\.git\objects\info\" />
+    <Folder Include="emoji\.git\objects\pack\" />
+    <Folder Include="emoji\.git\refs\" />
+    <Folder Include="emoji\.git\refs\heads\" />
+    <Folder Include="emoji\.git\refs\remotes\" />
+    <Folder Include="emoji\.git\refs\remotes\origin\" />
+    <Folder Include="emoji\.git\refs\tags\" />
+    <Folder Include="emoji\build\" />
+    <Folder Include="emoji\build\bdist.win32\" />
+    <Folder Include="emoji\build\lib\" />
+    <Folder Include="emoji\build\lib\emoji\" />
+    <Folder Include="emoji\build\lib\emoji\unicode_codes\" />
+    <Folder Include="emoji\docs\" />
+    <Folder Include="emoji\emoji.egg-info\" />
+    <Folder Include="emoji\emoji\" />
+    <Folder Include="emoji\emoji\unicode_codes\" />
+    <Folder Include="emoji\example\" />
+    <Folder Include="emoji\tests\" />
+    <Folder Include="emoji\utils\" />
+    <Folder Include="emoji\utils\gh-pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="emoji\.github\workflows\pypipublish.yml" />
+    <Content Include="emoji\.github\workflows\pythonTests.yml" />
+    <Content Include="emoji\.github\workflows\updateGithubPages.yml" />
+    <Content Include="emoji\.gitignore" />
+    <Content Include="emoji\.git\config" />
+    <Content Include="emoji\.git\description" />
+    <Content Include="emoji\.git\HEAD" />
+    <Content Include="emoji\.git\hooks\applypatch-msg.sample" />
+    <Content Include="emoji\.git\hooks\commit-msg.sample" />
+    <Content Include="emoji\.git\hooks\fsmonitor-watchman.sample" />
+    <Content Include="emoji\.git\hooks\post-update.sample" />
+    <Content Include="emoji\.git\hooks\pre-applypatch.sample" />
+    <Content Include="emoji\.git\hooks\pre-commit.sample" />
+    <Content Include="emoji\.git\hooks\pre-merge-commit.sample" />
+    <Content Include="emoji\.git\hooks\pre-push.sample" />
+    <Content Include="emoji\.git\hooks\pre-rebase.sample" />
+    <Content Include="emoji\.git\hooks\pre-receive.sample" />
+    <Content Include="emoji\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="emoji\.git\hooks\push-to-checkout.sample" />
+    <Content Include="emoji\.git\hooks\sendemail-validate.sample" />
+    <Content Include="emoji\.git\hooks\update.sample" />
+    <Content Include="emoji\.git\index" />
+    <Content Include="emoji\.git\info\exclude" />
+    <Content Include="emoji\.git\logs\HEAD" />
+    <Content Include="emoji\.git\logs\refs\heads\master" />
+    <Content Include="emoji\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="emoji\.git\objects\pack\pack-bead256d4ad158e346a7f26c355ff8cebf6ead1c.idx" />
+    <Content Include="emoji\.git\objects\pack\pack-bead256d4ad158e346a7f26c355ff8cebf6ead1c.pack" />
+    <Content Include="emoji\.git\objects\pack\pack-bead256d4ad158e346a7f26c355ff8cebf6ead1c.rev" />
+    <Content Include="emoji\.git\packed-refs" />
+    <Content Include="emoji\.git\refs\heads\master" />
+    <Content Include="emoji\.git\refs\remotes\origin\HEAD" />
+    <Content Include="emoji\build\lib\emoji\py.typed" />
+    <Content Include="emoji\CHANGES.md" />
+    <Content Include="emoji\docs\1F468-200D-1F469-1F3FF-200D-1F467-1F3FB-200D-1F466-1F3FE.png" />
+    <Content Include="emoji\docs\api.rst" />
+    <Content Include="emoji\docs\doc8.ini" />
+    <Content Include="emoji\docs\index.rst" />
+    <Content Include="emoji\docs\install.rst" />
+    <Content Include="emoji\docs\make.bat" />
+    <Content Include="emoji\docs\Makefile" />
+    <Content Include="emoji\docs\README.md" />
+    <Content Include="emoji\docs\requirements.txt" />
+    <Content Include="emoji\emoji.egg-info\dependency_links.txt" />
+    <Content Include="emoji\emoji.egg-info\PKG-INFO" />
+    <Content Include="emoji\emoji.egg-info\requires.txt" />
+    <Content Include="emoji\emoji.egg-info\SOURCES.txt" />
+    <Content Include="emoji\emoji.egg-info\top_level.txt" />
+    <Content Include="emoji\emoji\py.typed" />
+    <Content Include="emoji\example\demo.png" />
+    <Content Include="emoji\example\example.png" />
+    <Content Include="emoji\LICENSE.txt" />
+    <Content Include="emoji\MANIFEST.in" />
+    <Content Include="emoji\pyproject.toml" />
+    <Content Include="emoji\README.rst" />
+    <Content Include="emoji\utils\gh-pages\.gitignore" />
+    <Content Include="emoji\utils\gh-pages\main.css" />
+    <Content Include="emoji\utils\gh-pages\main.js" />
+    <Content Include="emoji\utils\gh-pages\README.rst" />
+    <Content Include="emoji\utils\gh-pages\requirements.txt" />
+    <Content Include="emoji\utils\gh-pages\template.html" />
+    <Content Include="emoji\utils\README.md" />
+    <Content Include="emoji\utils\requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.12" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

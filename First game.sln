@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "First game", "First game.pyproj", "{22455FBA-609D-4D40-AB78-02C11A4A66F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{FD968C28-B796-460F-995B-F3F22001449A}"
+	ProjectSection(SolutionItems) = preProject
+		clouds.py = clouds.py
+		helicopter.py = helicopter.py
+		map.py = map.py
+		utils.py = utils.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1|Any CPU = 1|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22455FBA-609D-4D40-AB78-02C11A4A66F6}.1|Any CPU.ActiveCfg = 1|Any CPU
+		{22455FBA-609D-4D40-AB78-02C11A4A66F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22455FBA-609D-4D40-AB78-02C11A4A66F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA4587E6-B5B1-4B57-9FD5-7DDE94C926FB}
+	EndGlobalSection
+EndGlobal
